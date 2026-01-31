@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    @apply antialiased text-gray-900 bg-white;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+      Roboto, "Helvetica Neue", Arial, "Noto Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+  }
+
+  /* Focus styles for accessible keyboard navigation */
+  button:focus {
+    @apply outline-none ring-2 ring-indigo-300;
+  }
+
+  /* Small helper for therapist emoji sizing */
+  .therapist-emoji {
+    @apply text-5xl leading-none;
+  }
+}
+
+/* Toast animation */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out;
+}
