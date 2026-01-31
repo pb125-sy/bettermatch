@@ -1,0 +1,3737 @@
+{
+  "therapists": [
+    {
+      "provider_id": "austin_discovery_001",
+      "identity": {
+        "name": "Jeremy Bennick",
+        "credentials": ["LCSW"],
+        "title": "Licensed Clinical Social Worker",
+        "profile_url": "https://www.discoverycounselingaustin.com/our-counselors/jeremy-bennick",
+        "narrative": "Jeremy Bennick represents the \"Senior Clinician\" tier within the Discovery ecosystem. As a Licensed Clinical Social Worker (LCSW) , his practice is grounded in a relational framework that explicitly incorporates anti-racist and LGBTQIA+ affirming methodologies. This positioning is critical for data matching algorithms designed to serve marginalized communities. Economically, his standard rate is set at $150, which serves as the baseline for fully licensed staff at this practice. His acceptance of major insurance plans (United, Aetna, BCBS) combined with a willingness to provide superbills for OON clients makes him a high-accessibility node in the network. His background in education prior to therapy suggests a specific aptitude for working with adolescents and young adults, a demographic often seeking \"relatable\" authority figures."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy (55 min)",
+          "cost_min": 150,
+          "cost_max": 150,
+          "currency": "USD",
+          "sliding_scale_available": true
+        },
+        "insurance": {
+          "in_network_plans": ["United", "Aetna", "BCBS"],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": ["Anti-racist", "LGBTQIA+ affirming"],
+        "modalities": ["Relational framework"],
+        "populations": ["Adolescents", "Young Adults"]
+      },
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "austin_discovery_002",
+      "identity": {
+        "name": "Drew Dubcak",
+        "credentials": ["LPC", "CEDS"],
+        "title": "Licensed Professional Counselor & Certified Eating Disorder Specialist",
+        "profile_url": "https://www.discoverycounselingaustin.com/our-counselors/drew-dubcak",
+        "narrative": "Drew Dubcak offers a distinct value proposition through her credentialing as a Certified Eating Disorder Specialist (CEDS). This certification is rigorous and signals a capability to handle higher-acuity cases involving anorexia, bulimia, and body dysmorphia that generalist counselors often refer out. Her bio emphasizes \"Body Liberation\" and \"Intuitive/Mindful Eating,\" aligning her with the Health At Every Size (HAES) movement. From a data perspective, tagging her profile with \"Eating Disorders\" is insufficient; the schema must capture the nuance of her \"Body Liberation\" framework to ensure cultural fit for clients seeking non-diet approaches. Her fee aligns with the licensed tier at $150, representing significant value given the specialized nature of CEDS certification."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy (55 min)",
+          "cost_min": 150,
+          "cost_max": 150,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": [],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Eating Disorders",
+          "Anorexia",
+          "Bulimia",
+          "Body Dysmorphia",
+          "Body Liberation"
+        ],
+        "modalities": [
+          "Health At Every Size (HAES)",
+          "Intuitive/Mindful Eating"
+        ],
+        "populations": []
+      },
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "austin_discovery_003",
+      "identity": {
+        "name": "Julie Biechlin",
+        "credentials": ["LCSW"],
+        "title": "Licensed Clinical Social Worker",
+        "profile_url": "https://www.discoverycounselingaustin.com/our-counselors/julie-biechlin",
+        "narrative": "Julie Biechlin fills the critical \"Grief and Loss\" niche within the practice. Her professional history as a grief therapist and support group coordinator provides her with the specific clinical architecture needed to treat bereavement and developmental trauma. Unlike symptom-reduction focused therapies (like brief CBT), her approach is described as narrative and constructivist, focusing on \"creating meaning from loss.\" This distinction is vital for matching algorithms; a client seeking quick anxiety relief might be better matched elsewhere, while a client processing the death of a spouse is an ideal match for Biechlin. Her sliding scale availability is a key economic data point for long-term grief work which may exhaust standard insurance benefits."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy (55 min)",
+          "cost_min": 150,
+          "cost_max": 150,
+          "currency": "USD",
+          "sliding_scale_available": true
+        },
+        "insurance": {
+          "in_network_plans": [],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Grief and Loss",
+          "Bereavement",
+          "Developmental Trauma"
+        ],
+        "modalities": ["Narrative", "Constructivist"],
+        "populations": ["Adults"]
+      },
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "austin_discovery_004",
+      "identity": {
+        "name": "Kady Maxwell Wise",
+        "credentials": ["MA", "LPC"],
+        "title": "Licensed Professional Counselor",
+        "profile_url": "https://www.discoverycounselingaustin.com/our-counselors/kady-maxwell-wise",
+        "narrative": "Kady Maxwell Wise represents the intersection of clinical counseling and the educational system. With a background as a school counselor and teacher, she possesses an innate understanding of the systemic pressures facing adolescents—academic stress, peer dynamics, and identity formation in the digital age. This \"school-aware\" context is a crucial metadata tag for parents seeking therapy for their children. Her modality list includes DBT (Dialectical Behavior Therapy), which is the gold standard for treating emotional dysregulation and self-harm in teens. Economically, her $150 rate is standard, but her acceptance of \"Whole Foods Insurance\" points to the localized nature of Austin's healthcare market, where the grocer (headquartered in Austin) is a major employer."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy (55 min)",
+          "cost_min": 150,
+          "cost_max": 150,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Whole Foods Insurance"],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Adolescent therapy",
+          "Academic stress",
+          "Peer dynamics",
+          "Identity formation"
+        ],
+        "modalities": ["DBT (Dialectical Behavior Therapy)"],
+        "populations": ["Adolescents", "Teens"]
+      },
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "austin_discovery_036",
+      "identity": {
+        "name": "Joyee Uwange",
+        "credentials": ["LCSW", "LCDC"],
+        "title": "Licensed Clinical Social Worker",
+        "profile_url": "https://www.discoverycounselingaustin.com/our-counselors/joyee-uwange",
+        "narrative": "Joyee Uwange holds a dual licensure that is highly valuable in the behavioral health marketplace: LCSW (Social Work) and LCDC (Chemical Dependency Counselor). This combination allows her to treat the \"dual diagnosis\" client—one suffering from both mental health disorders (depression/anxiety) and substance use disorders. Most generalist therapists are ethically required to refer out active addiction cases, but Uwange’s LCDC credential allows her to retain and treat these complex cases. This efficiency reduces the fragmentation of care for the patient. Her acceptance of major insurance plans makes high-quality addiction treatment accessible, a rarity in a field often dominated by expensive private-pay rehab centers."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 150,
+          "cost_max": 150,
+          "currency": "USD",
+          "sliding_scale_available": true
+        },
+        "insurance": {
+          "in_network_plans": ["Major insurance plans"],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Dual diagnosis",
+          "Substance use disorders",
+          "Addiction"
+        ],
+        "modalities": [],
+        "populations": ["Adults"]
+      },
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "austin_discovery_037",
+      "identity": {
+        "name": "Jillian Summar",
+        "credentials": ["LPC Intern"],
+        "title": "Therapist Intern",
+        "profile_url": "https://www.discoverycounselingaustin.com/our-counselors/jillian-summar",
+        "narrative": "Jillian Summar represents the \"Intern\" tier of the Austin mental health economy. As a therapist-in-training, her session fees are radically lower, ranging from $50 to $75. This pricing strategy is a deliberate mechanism to provide accessible care to the uninsured or underinsured while simultaneously fulfilling the state-mandated practicum hours required for licensure. From a data perspective, it is critical to flag \"Intern\" status to manage user expectations regarding experience level and insurance eligibility (interns are almost universally ineligible for insurance reimbursement)."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 50,
+          "cost_max": 75,
+          "currency": "USD",
+          "sliding_scale_available": true
+        },
+        "insurance": {
+          "in_network_plans": [],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [],
+        "modalities": [],
+        "populations": ["Adults"]
+      },
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "austin_therapy_005",
+      "identity": {
+        "name": "Mark Muecke",
+        "credentials": ["LMSW"],
+        "title": "Senior Counselor",
+        "profile_url": "https://therapyaustin.com/counselor-list/mark-muecke/",
+        "narrative": "Mark Muecke is a Senior Counselor who brings a sophisticated psychodynamic lens to the treatment of ADHD and neurodivergence. While the common market approach to ADHD involves behavioral coaching (lists, timers, structure), Muecke’s training in \"Child Psychoanalytic Thinking\" allows him to address the deep-seated shame and attachment wounds often comorbid with executive dysfunction. This depth-oriented approach commands a premium rate starting at $125. His profile is an excellent example of how specific sub-specialties (Psychoanalysis + ADHD) can be combined to create a unique clinical persona."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 125,
+          "cost_max": 200,
+          "currency": "USD",
+          "sliding_scale_available": true
+        },
+        "insurance": {
+          "in_network_plans": [],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "ADHD",
+          "Neurodivergence",
+          "Shame",
+          "Attachment wounds"
+        ],
+        "modalities": ["Psychodynamic", "Child Psychoanalytic Thinking"],
+        "populations": ["Adults", "Neurodivergent Individuals"]
+      },
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "austin_therapy_006",
+      "identity": {
+        "name": "Mona Amin",
+        "credentials": ["LMFT"],
+        "title": "Senior Counselor & Fully Licensed Therapist",
+        "profile_url": "https://therapyaustin.com/counselor-list/mona-amin/",
+        "narrative": "Mona Amin’s licensure as a Marriage and Family Therapist (LMFT) and her Gottman Level 1 training position her as a specialist in systems theory. Unlike individual counselors who may focus solely on intrapsychic processes, Amin’s data profile suggests a focus on interpersonal dynamics. Her expertise in \"High-conflict resolution\" and \"Perinatal therapy\" makes her a critical resource for couples in acute distress or transition. The fee structure for couples therapy is often distinct from individual therapy; her profile suggests a starting rate of $150, which is competitive for specialized couples work in the Austin market."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual/Couples Therapy",
+          "cost_min": 150,
+          "cost_max": 200,
+          "currency": "USD",
+          "sliding_scale_available": true
+        },
+        "insurance": {
+          "in_network_plans": [],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": ["High-conflict resolution", "Perinatal therapy"],
+        "modalities": ["Gottman Level 1", "Systems theory"],
+        "populations": ["Couples", "Parents"]
+      },
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "austin_therapy_007",
+      "identity": {
+        "name": "Colton Seggern",
+        "credentials": ["LPC"],
+        "title": "Senior Counselor",
+        "profile_url": "https://therapyaustin.com/counselor-list/colton-seggern/",
+        "narrative": "Colton Seggern utilizes \"cultural signaling\" in his bio to attract a specific clientele. By mentioning interests in \"Dungeons and Dragons\" and video games, he signals safety and relatability to the \"geek/tech\" demographic prevalent in Austin. This is not merely trivia; for clients with social anxiety or neurodivergence, shared cultural touchstones are vital for building the therapeutic alliance. His integration of Internal Family Systems (IFS) and ACT (Acceptance and Commitment Therapy) provides a robust clinical framework for identity exploration work, particularly for men."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 125,
+          "cost_max": 150,
+          "currency": "USD",
+          "sliding_scale_available": true
+        },
+        "insurance": {
+          "in_network_plans": [],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Geek/tech culture",
+          "Social anxiety",
+          "Identity exploration"
+        ],
+        "modalities": [
+          "Internal Family Systems (IFS)",
+          "ACT (Acceptance and Commitment Therapy)"
+        ],
+        "populations": ["Adults", "Men"]
+      },
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "austin_justmind_008",
+      "identity": {
+        "name": "Alyssa Van Lopik",
+        "credentials": ["LCSW"],
+        "title": "Licensed Clinical Social Worker",
+        "profile_url": "https://justmind.org/therapist/alyssa-van-lopik-lcsw-counselor/",
+        "narrative": "Alyssa Van Lopik’s previous career in business development and recruiting informs her clinical specialization in \"Career Transitions\" and \"Emerging Adults\". This dual-competency allows her to understand the corporate pressures her clients face, distinguishing her from therapists with purely academic backgrounds. Her rate of $155 sits in the mid-high range, appropriate for her specialized dual-background. Her use of CBT and DBT suggests a structured, skills-based approach that appeals to professionals seeking actionable outcomes."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 155,
+          "cost_max": 155,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": [],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": ["Career Transitions", "Emerging Adults"],
+        "modalities": ["CBT", "DBT"],
+        "populations": ["Professionals"]
+      },
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "austin_justmind_009",
+      "identity": {
+        "name": "Alan Nelson",
+        "credentials": ["LPC", "SEP"],
+        "title": "Licensed Professional Counselor & Somatic Experiencing Practitioner",
+        "profile_url": "https://justmind.org/therapist/alan-nelson-lpc-sep/",
+        "narrative": "Alan Nelson holds the \"SEP\" (Somatic Experiencing Practitioner) credential, which requires three years of specialized post-graduate training. This justifies his higher fee of $185/session. Somatic Experiencing is a body-oriented approach to trauma that is increasingly sought after by clients who have not found relief through traditional talk therapy. By targeting the physiological dysregulation of PTSD, Nelson offers a distinct mechanism of action. His background in theater adds a layer of \"embodiment\" expertise, making him a unique fit for performers and creatives."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 185,
+          "cost_max": 185,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": [],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": ["Trauma", "PTSD"],
+        "modalities": ["Somatic Experiencing (SE)"],
+        "populations": ["Adults", "Creatives", "Performers"]
+      },
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "austin_justmind_010",
+      "identity": {
+        "name": "Bella Lyon",
+        "credentials": ["LMFT Associate"],
+        "title": "Therapist Associate",
+        "profile_url": "https://justmind.org/therapist/bella-lyon-lmft/",
+        "narrative": "Bella Lyon is an LMFT Associate who specializes in relationship systems, including \"Sex and Intimacy\" and \"Infertility\". These are high-stress areas that require specific sensitivity and training. Her supervision by a PhD-level clinician ensures quality of care despite her associate status. Her fee of $155 for individuals and $170 for couples reflects the complexity of relationship work. Her bio highlights a \"culturally sensitive, anti-oppressive\" framework, which is a key signal for clients from marginalized backgrounds seeking safety in the therapy room."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 155,
+          "cost_max": 155,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "couples_fee_structure": {
+          "session_type": "Couples Therapy",
+          "cost_min": 170,
+          "cost_max": 170,
+          "currency": "USD"
+        },
+        "insurance": {
+          "in_network_plans": [],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Sex and Intimacy",
+          "Infertility",
+          "Relationship systems"
+        ],
+        "modalities": ["Culturally sensitive", "Anti-oppressive"],
+        "populations": ["Couples", "Adults"]
+      },
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "austin_justmind_011",
+      "identity": {
+        "name": "William Schroeder",
+        "credentials": ["LPC", "NCC"],
+        "title": "Co-Director & Counselor",
+        "profile_url": "https://justmind.org/therapist/william-schroeder/",
+        "narrative": "As the Co-Director of Just Mind, William Schroeder commands a premium rate of $185. His clinical focus on \"High functioning Autism\" and \"Techies\" is a strategic alignment with Austin's demographics. His training with Tony Attwood (a world-renowned expert on Asperger's) lends significant credibility to his practice. Schroeder’s profile effectively targets the \"successful but struggling\" tech worker—individuals who are high-performing professionally but may struggle with social nuance or sensory processing."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 185,
+          "cost_max": 185,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": [],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": ["High functioning Autism", "Asperger's"],
+        "modalities": [],
+        "populations": ["Techies", "Professionals"]
+      },
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "boston_csgb_012",
+      "identity": {
+        "name": "Dana Venable",
+        "credentials": ["LMHC", "ATR"],
+        "title": "President & Licensed Mental Health Counselor",
+        "profile_url": "https://www.csgboston.com/home/our-counselors/dana-venable-lmhc/",
+        "narrative": "Dana Venable serves as both President of CSGB and a practicing clinician. Her credentials include both LMHC and ATR (Registered Art Therapist), positioning her at the intersection of clinical administration and creative therapeutics. Her use of Dialectical Behavior Therapy (DBT) alongside Art Therapy creates a powerful niche for treating \"Distress Tolerance\"—a core component of personality disorder treatment. Her transparent fee schedule ($160 for 60 mins) and wide insurance acceptance make her a highly accessible option for complex cases that might otherwise require hospitalization."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy (60 min)",
+          "cost_min": 160,
+          "cost_max": 160,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": [
+            "Mass General Brigham",
+            "Tufts",
+            "Harvard Pilgrim"
+          ],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": ["Distress Tolerance", "Personality disorders"],
+        "modalities": ["Dialectical Behavior Therapy (DBT)", "Art Therapy"],
+        "populations": ["Adults", "Adolescents"]
+      },
+      "location": {
+        "city": "Wakefield",
+        "state": "MA",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "boston_csgb_013",
+      "identity": {
+        "name": "Amanda Bruce",
+        "credentials": ["LMHC"],
+        "title": "Vice President & COO",
+        "profile_url": "https://www.csgboston.com/home/our-counselors/amanda-bruce-lmhc/",
+        "narrative": "Amanda Bruce, the practice's COO, specializes in eating disorders and addiction. Her narrative reframes \"hitting rock bottom\" as a growth opportunity, a resilience-oriented perspective that is vital for addiction recovery work. Her background in Expressive Therapies (like Venable) suggests a practice-wide philosophy that values non-verbal processing. With a fee of $160 and broad insurance coverage, she represents a critical access point for addiction treatment in the Greater Boston area, which has been heavily impacted by the opioid crisis."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy (60 min)",
+          "cost_min": 160,
+          "cost_max": 160,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": [
+            "Mass General Brigham",
+            "Tufts",
+            "Harvard Pilgrim"
+          ],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": ["Eating disorders", "Addiction"],
+        "modalities": ["Expressive Therapies", "Resilience-oriented"],
+        "populations": ["Adolescents", "Adults"]
+      },
+      "location": {
+        "city": "Georgetown",
+        "state": "MA",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "boston_csgb_014",
+      "identity": {
+        "name": "Dr. Tünde Turi-Marković",
+        "credentials": ["PhD"],
+        "title": "Psychologist",
+        "profile_url": "https://www.csgboston.com/home/our-counselors/tunde-turi-markovic-phd/",
+        "narrative": "Dr. Turi-Marković brings the highest level of academic credentialing to the practice. As a PhD Psychologist and professor, her clinical work is deeply informed by research. She utilizes \"Feminist Therapy,\" a modality that examines how sociopolitical structures (like sexism and racism) impact individual mental health. This is particularly relevant for female clients dealing with workplace discrimination or role strain. Despite her doctoral status, her fee remains consistent with the practice's licensed rate ($160), offering exceptional value for patients seeking doctoral-level care."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy (60 min)",
+          "cost_min": 160,
+          "cost_max": 160,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": [
+            "Mass General Brigham",
+            "Tufts",
+            "Harvard Pilgrim"
+          ],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": ["Workplace discrimination", "Role strain"],
+        "modalities": ["Feminist Therapy"],
+        "populations": ["Adults", "Adolescents", "Women"]
+      },
+      "location": {
+        "city": "Wakefield",
+        "state": "MA",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "boston_csgb_015",
+      "identity": {
+        "name": "Alicia Brandon-Turner",
+        "credentials": ["LICSW"],
+        "title": "Licensed Independent Clinical Social Worker",
+        "profile_url": "https://www.csgboston.com/home/our-counselors/alicia-brandon-turner-licsw/",
+        "narrative": "Alicia Brandon-Turner specializes in the treatment of pre-teens and teens using Trauma-Focused Cognitive Behavioral Therapy (TF-CBT). TF-CBT is an evidence-based protocol specifically designed for children who have experienced trauma. Finding providers certified in this specific modality who also accept insurance is a common pain point for parents. Her profile addresses this gap directly. The distinction of LICSW allows her to practice independently and bill Medicare/Medicaid in some contexts, though private insurance is the primary payer listed here."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy (60 min)",
+          "cost_min": 160,
+          "cost_max": 160,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": [
+            "Mass General Brigham",
+            "Tufts",
+            "Harvard Pilgrim",
+            "Medicare",
+            "Medicaid"
+          ],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": ["Trauma"],
+        "modalities": ["Trauma-Focused Cognitive Behavioral Therapy (TF-CBT)"],
+        "populations": ["Pre-teens", "Teens", "Children"]
+      },
+      "location": {
+        "city": "Georgetown",
+        "state": "MA",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "boston_csgb_016",
+      "identity": {
+        "name": "Ewa (Eva) H. Hut",
+        "credentials": ["LMHC", "ERPSCC"],
+        "title": "Licensed Mental Health Counselor",
+        "profile_url": "https://www.csgboston.com/home/our-counselors/eva-hut/",
+        "narrative": "Eva Hut offers a highly specialized service: \"First Responder Counseling\". Police officers, firefighters, and EMTs often resist therapy due to stigma and a belief that civilians \"don't understand\" the job. Hut’s specific branding as an expert in this area serves as a signal of cultural competence. Her profile likely attracts clients from the extensive network of first responders in the Greater Boston area. The \"ERPSCC\" credential (likely related to Emergency Responder Public Safety Certified Clinician) reinforces this niche."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy (60 min)",
+          "cost_min": 160,
+          "cost_max": 160,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": [
+            "Mass General Brigham",
+            "Tufts",
+            "Harvard Pilgrim"
+          ],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": ["First Responder Counseling"],
+        "modalities": [],
+        "populations": ["Police officers", "Firefighters", "EMTs"]
+      },
+      "location": {
+        "city": "Wakefield",
+        "state": "MA",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "boston_csgb_041",
+      "identity": {
+        "name": "Jennifer Lee",
+        "credentials": ["LMHC"],
+        "title": "Licensed Mental Health Counselor",
+        "profile_url": "https://www.csgboston.com/home/our-counselors/jennifer-lee/",
+        "narrative": "Jennifer Lee represents the backbone of the mental health system: the competent generalist. While specialists are vital, the majority of care seekers need support for general anxiety, depression, and mood disorders. Lee provides this foundational care within the accessible CSGB insurance framework. Her profile ensures that the dataset includes providers for \"standard\" outpatient needs."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy (60 min)",
+          "cost_min": 160,
+          "cost_max": 160,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": [
+            "Mass General Brigham",
+            "Tufts",
+            "Harvard Pilgrim"
+          ],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": ["Anxiety", "Depression", "Mood disorders"],
+        "modalities": [],
+        "populations": ["Adults"]
+      },
+      "location": {
+        "city": "Wakefield",
+        "state": "MA",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "boston_csgb_042",
+      "identity": {
+        "name": "Sara Thibodeau",
+        "credentials": ["LMHC", "CIMHP"],
+        "title": "Licensed Mental Health Counselor",
+        "profile_url": "https://www.csgboston.com/home/our-counselors/sara-thibodeau-lmhc/",
+        "narrative": "Sara Thibodeau’s credential as a Certified Integrative Mental Health Professional (CIMHP) suggests an approach that incorporates nutrition, sleep hygiene, and lifestyle factors into mental health treatment. This holistic perspective is increasingly popular among clients who prefer to avoid medication or who view their mental health as interconnected with physical wellness."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy (60 min)",
+          "cost_min": 160,
+          "cost_max": 160,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": [
+            "Mass General Brigham",
+            "Tufts",
+            "Harvard Pilgrim"
+          ],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Integrative Mental Health",
+          "Nutrition",
+          "Anxiety",
+          "Sleep hygiene",
+          "Lifestyle factors"
+        ],
+        "modalities": ["Holistic"],
+        "populations": ["Adults"]
+      },
+      "location": {
+        "city": "Wakefield",
+        "state": "MA",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "seattle_scw_017",
+      "identity": {
+        "name": "Olivia Sherry",
+        "credentials": ["LMFTA"],
+        "title": "Licensed Marriage and Family Therapist Associate",
+        "profile_url": "https://www.seattlecounselingandwellness.com/our-team",
+        "narrative": "Olivia Sherry represents the Associate tier (LMFTA) but brings high-value cultural competence for the \"Kink, Poly, & ENM\" (Ethical Non-Monogamy) communities. In standard therapy settings, clients in these communities often face judgment or have to educate their therapist. Sherry’s explicit affirmation of these lifestyles removes that barrier. Her use of Narrative Therapy is clinically aligned with deconstructing societal norms that might pathologize these identities."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 165,
+          "cost_max": 210,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Premera", "Regence"],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": ["Kink", "Poly", "Ethical Non-Monogamy (ENM)"],
+        "modalities": ["Narrative Therapy"],
+        "populations": ["Adults", "Couples"]
+      },
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "seattle_scw_018",
+      "identity": {
+        "name": "Janeah Rodrigo",
+        "credentials": ["LMHCA"],
+        "title": "Licensed Mental Health Counselor Associate",
+        "profile_url": "https://www.seattlecounselingandwellness.com/our-team",
+        "narrative": "Janeah Rodrigo leverages her identity as a first-generation Filipina American to offer specialized care for BIPOC and immigrant populations. This \"use of self\" is a powerful therapeutic tool. Her integration of Play Therapy indicates capability with younger demographics, filling a gap in the private practice market which often skews towards adults. Her profile is a key match for parents of color seeking culturally safe spaces for their children."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 165,
+          "cost_max": 210,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Premera", "Regence"],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": ["BIPOC", "Immigrant populations"],
+        "modalities": ["Play Therapy"],
+        "populations": ["Children", "Younger demographics", "Parents of color"]
+      },
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "seattle_scw_019",
+      "identity": {
+        "name": "Hanna Zhong",
+        "credentials": ["LMHCA"],
+        "title": "Licensed Mental Health Counselor Associate",
+        "profile_url": "https://www.seattlecounselingandwellness.com/our-team",
+        "narrative": "Hanna Zhong offers therapy in Mandarin and English. In mental health, linguistic nuance is everything; clients often struggle to express emotional concepts in a second language. Zhong’s ability to conduct therapy in Mandarin makes her an essential resource for the Chinese-speaking diaspora in Seattle. Her Ivy League education (UPenn) adds a layer of prestige that may appeal to certain demographics valuing academic pedigree."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 165,
+          "cost_max": 210,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Premera", "Regence"],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": [],
+        "modalities": [],
+        "populations": ["Adults", "Immigrants", "Chinese-speaking diaspora"],
+        "languages": ["Mandarin", "English"]
+      },
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "seattle_scw_020",
+      "identity": {
+        "name": "Grace Bicket",
+        "credentials": ["LMHCA"],
+        "title": "Licensed Mental Health Counselor Associate",
+        "profile_url": "https://www.seattlecounselingandwellness.com/our-team",
+        "narrative": "Grace Bicket bridges the gap between clinical psychology and spirituality/astrology. While some traditionalists might view astrology as non-clinical, in the context of Seattle’s \"spiritual but not religious\" culture, it is a valid framework for meaning-making. By integrating this with evidence-based Gottman methods, she validates the client's worldview while delivering clinical interventions."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 165,
+          "cost_max": 210,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Premera", "Regence"],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": ["Spirituality", "Astrology"],
+        "modalities": ["Gottman methods"],
+        "populations": ["Couples", "Adults", "Spiritual but not religious"]
+      },
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "seattle_scw_029",
+      "identity": {
+        "name": "Rachel Zeller",
+        "credentials": ["LMHCA"],
+        "title": "Licensed Mental Health Counselor Associate",
+        "profile_url": "https://www.seattlecounselingandwellness.com/our-team",
+        "narrative": "Rachel Zeller is a doctoral candidate focusing on neuropsychology. This indicates a practice informed by the biological underpinnings of mental health. Her focus on \"Gender Identity\" combined with \"Object Relations\" suggests a deep psychodynamic approach to how we form our sense of self. This is a highly intellectualized form of therapy suitable for clients who want to understand the \"why\" behind their behaviors."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 165,
+          "cost_max": 210,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Premera", "Regence"],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": ["Gender Identity", "Neuropsychology"],
+        "modalities": ["Object Relations", "Psychodynamic"],
+        "populations": ["Adults", "Adolescents"]
+      },
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "seattle_scw_031",
+      "identity": {
+        "name": "Maggie Lenarz",
+        "credentials": ["LMHC"],
+        "title": "Licensed Mental Health Counselor",
+        "profile_url": "https://www.seattlecounselingandwellness.com/our-team",
+        "narrative": "Maggie Lenarz specializes in OCD and Phobias using Exposure and Response Prevention (ERP). ERP is the gold standard for OCD but is difficult to find outside of specialized centers. Lenarz’s presence in a general group practice adds significant value. Her background in Partial Hospitalization Programs (PHP) suggests comfort with high-acuity cases."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 165,
+          "cost_max": 210,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Premera", "Regence"],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": ["OCD", "Phobias"],
+        "modalities": ["Exposure and Response Prevention (ERP)"],
+        "populations": ["Adults"]
+      },
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "seattle_scw_034",
+      "identity": {
+        "name": "Kelly Thoma",
+        "credentials": ["LSWAIC"],
+        "title": "Licensed Social Worker Associate Independent Clinical",
+        "profile_url": "https://www.seattlecounselingandwellness.com/our-team",
+        "narrative": "Kelly Thoma specializes in \"Functional Neurological Disorders\" (FND), a niche at the intersection of neurology and psychiatry. Patients with FND often experience physical symptoms (seizures, paralysis) without organic cause, requiring a delicate, non-stigmatizing therapeutic approach. Thoma’s background in hospital neurology departments makes her uniquely qualified for this."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 165,
+          "cost_max": 210,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Premera", "Regence"],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": ["Functional Neurological Disorders (FND)"],
+        "modalities": [],
+        "populations": ["Adults", "Adolescents"]
+      },
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "denver_mdt_021",
+      "identity": {
+        "name": "Sydney Marxer",
+        "credentials": ["MA", "LPCC"],
+        "title": "Therapist",
+        "profile_url": "https://mydenvertherapy.com/about/",
+        "narrative": "Sydney Marxer offers \"Brainspotting,\" a somatic modality that identifies points in the visual field that correlate with neural trauma. This is a cutting-edge therapy often sought by clients who have plateaued with talk therapy. Her integration of this with \"Christian Counseling\" is a strategic combination, offering physiological healing within a faith-based framework. Her rate is standard for the practice ($150)."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 150,
+          "cost_max": 150,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": [],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": ["Christian Counseling", "Trauma"],
+        "modalities": ["Brainspotting", "Somatic"],
+        "populations": ["Adults", "Couples"]
+      },
+      "location": {
+        "city": "Denver",
+        "state": "CO",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "denver_mdt_022",
+      "identity": {
+        "name": "Anne Giles",
+        "credentials": ["MA", "LPCC"],
+        "title": "Therapist",
+        "profile_url": "https://mydenvertherapy.com/about/",
+        "narrative": "Anne Giles explicitly targets \"high-functioning adults\" dealing with perfectionism. This is a code for the \"worried well\" or professionals who are successful externally but suffering internally. Her lower fee of $135 makes her accessible, yet her use of EMDR and IFS suggests deep clinical work rather than just coaching."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 135,
+          "cost_max": 135,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": [],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": ["Perfectionism"],
+        "modalities": ["EMDR", "IFS"],
+        "populations": ["Adults", "High-functioning adults", "Professionals"]
+      },
+      "location": {
+        "city": "Denver",
+        "state": "CO",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "denver_mdt_023",
+      "identity": {
+        "name": "Nicole Hunka",
+        "credentials": ["MA", "LPC"],
+        "title": "Therapist",
+        "profile_url": "https://mydenvertherapy.com/about/",
+        "narrative": "Nicole Hunka’s focus on \"Cancer Survivors\" positions her in the realm of Medical Family Therapy. This is a highly specialized niche supporting individuals through the trauma of diagnosis, treatment, and remission. Combined with Ketamine-Assisted Therapy (a distinct biological intervention for treatment-resistant depression), she offers a high-acuity service portfolio."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 150,
+          "cost_max": 150,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": [],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Cancer Survivors",
+          "Medical Family Therapy",
+          "Treatment-resistant depression"
+        ],
+        "modalities": ["Ketamine-Assisted Therapy"],
+        "populations": []
+      },
+      "location": {
+        "city": "Denver",
+        "state": "CO",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "denver_mdt_024",
+      "identity": {
+        "name": "JJ Hedden",
+        "credentials": ["Counseling Intern"],
+        "title": "Counseling Intern",
+        "profile_url": "https://mydenvertherapy.com/about/",
+        "narrative": "JJ Hedden offers the lowest entry point at $100. His specialization in grief, informed by his own loss during the COVID-19 pandemic, provides him with \"lived experience\" credibility. As a male intern, he also adds diversity to the provider pool. The inability to provide superbills (as an intern) is a critical data point for the JSON."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 100,
+          "cost_max": 100,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": [],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Grief",
+          "Men's Issues",
+          "Peace-Finding",
+          "Habitual Pain Cycles"
+        ],
+        "modalities": [],
+        "populations": ["Adults", "Men"]
+      },
+      "location": {
+        "city": "Denver",
+        "state": "CO",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "la_westside_025",
+      "identity": {
+        "name": "Shannon Kalberg",
+        "credentials": ["LMFT"],
+        "title": "Founder & Therapist",
+        "profile_url": "https://www.westsidetherapycollective.com/shannon",
+        "narrative": "Shannon Kalberg commands a $250 fee, justified by her expertise in EMDR and business coaching. Her \"pragmatic\" approach appeals to LA's entertainment and business professionals who value efficiency. Being bilingual in Spanish allows her to serve a broader swath of the LA population, though at this price point, it is likely the affluent Latino demographic."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual/EMDR Session",
+          "cost_min": 250,
+          "cost_max": 250,
+          "currency": "USD",
+          "sliding_scale_available": true
+        },
+        "insurance": {
+          "in_network_plans": [],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": ["Business coaching"],
+        "modalities": ["EMDR", "Pragmatic"],
+        "populations": [
+          "Adults",
+          "Professionals",
+          "Entertainment professionals"
+        ],
+        "languages": ["Spanish", "English"]
+      },
+      "location": {
+        "city": "Santa Monica",
+        "state": "CA",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "la_westside_026",
+      "identity": {
+        "name": "Sydney Selecky",
+        "credentials": ["AMFT"],
+        "title": "Associate Therapist",
+        "profile_url": "https://www.westsidetherapycollective.com/sydney",
+        "narrative": "Sydney Selecky’s focus on \"Pregnancy and Infant Loss\" is a profound specialization. This is a disenfranchised grief often unsupported by generalist therapy. Her training in \"Trauma Healing Through the Senses\" indicates a somatic approach. As an Associate, her fee is lower/sliding scale, making this specialized care more accessible."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 175,
+          "cost_max": 250,
+          "currency": "USD",
+          "sliding_scale_available": true
+        },
+        "insurance": {
+          "in_network_plans": [],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": ["Pregnancy and Infant Loss", "Disenfranchised grief"],
+        "modalities": ["Trauma Healing Through the Senses", "Somatic"],
+        "populations": []
+      },
+      "location": {
+        "city": "Santa Monica",
+        "state": "CA",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "nyc_root_027",
+      "identity": {
+        "name": "Katherine Casey",
+        "credentials": ["LCSW-R"],
+        "title": "Clinical Director",
+        "profile_url": "https://theroottherapynyc.com/team-member/katherine-casey/",
+        "narrative": "In New York, the \"R\" privilege (LCSW-R) signifies 6 years of post-grad experience and eligibility for insurance reimbursement. While Casey operates largely OON, this credential is a marker of seniority. Her background in acting informs a unique somatic/creative approach. Her fee range ($200-$300) is standard for NYC Clinical Directors."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 200,
+          "cost_max": 300,
+          "currency": "USD",
+          "sliding_scale_available": true
+        },
+        "insurance": {
+          "in_network_plans": [],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": [],
+        "modalities": ["Somatic", "Creative"],
+        "populations": ["Adults", "Parents"]
+      },
+      "location": {
+        "city": "NYC",
+        "state": "NY",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "nyc_root_028",
+      "identity": {
+        "name": "Juhi Patel",
+        "credentials": ["MHC-LP"],
+        "title": "Associate & Clinical Manager",
+        "profile_url": "https://theroottherapynyc.com/team-member/juhi-patel-mhc-lp/",
+        "narrative": "Juhi Patel is a rare find in the NYC market: an Associate (MHC-LP) who is in-network with Aetna. This allows patients to access specialized OCD treatment (ERP) using their insurance benefits, a massive accessibility win. Her focus on \"Intergenerational Stressors\" is highly relevant for NYC's diverse immigrant communities."
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 150,
+          "cost_max": 200,
+          "currency": "USD",
+          "sliding_scale_available": true
+        },
+        "insurance": {
+          "in_network_plans": ["Aetna"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": ["OCD", "Intergenerational Stressors"],
+        "modalities": ["ERP"],
+        "populations": ["Adults", "Couples", "Immigrant communities"]
+      },
+      "location": {
+        "city": "NYC",
+        "state": "NY",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "austin_discovery_038",
+      "identity": {
+        "name": "Taylor Russell",
+        "credentials": ["LPC Intern"],
+        "title": "Therapist Intern",
+        "profile_url": "https://www.discoverycounselingaustin.com/our-counselors/taylor-russell",
+        "narrative": "As a therapist intern, Taylor Russell offers highly affordable counseling sessions, making mental healthcare accessible to a wider range of individuals in the Austin area. Interns operate under the supervision of fully licensed professionals, ensuring quality care while they complete their training requirements."
+      },
+      "economics": {
+        "fee_structure": {
+          "cost_min": 50,
+          "cost_max": 75,
+          "currency": "USD",
+          "sliding_scale_available": true,
+          "session_type": "Individual Therapy"
+        },
+        "insurance": {
+          "in_network_plans": [],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [],
+        "modalities": [],
+        "populations": []
+      },
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "austin_discovery_039",
+      "identity": {
+        "name": "Michelle Barrientos",
+        "credentials": ["MFT Intern"],
+        "title": "Therapist Intern",
+        "profile_url": "https://www.discoverycounselingaustin.com/our-counselors/michelle-barrientos",
+        "narrative": "Michelle Barrientos, an MFT Intern, specializes in family systems and relational dynamics. Her intern status allows her to provide therapy at a reduced rate, which is a significant benefit for families seeking counseling that might otherwise be cost-prohibitive."
+      },
+      "economics": {
+        "fee_structure": {
+          "cost_min": 50,
+          "cost_max": 75,
+          "currency": "USD",
+          "sliding_scale_available": true,
+          "session_type": "Individual/Family Therapy"
+        },
+        "insurance": {
+          "in_network_plans": [],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": ["Family Systems", "Relational Dynamics"],
+        "modalities": [],
+        "populations": ["Families"]
+      },
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "austin_discovery_040",
+      "identity": {
+        "name": "Alison Shelton",
+        "credentials": ["LCSW"],
+        "title": "Licensed Clinical Social Worker",
+        "profile_url": "https://www.discoverycounselingaustin.com/our-counselors/alison-shelton",
+        "narrative": "Alison Shelton is a fully licensed LCSW who adopts a holistic approach to therapy. She integrates various aspects of a client's life to foster well-being. Her standard rate of $150 and ability to provide superbills for out-of-network clients make her an accessible option for many."
+      },
+      "economics": {
+        "fee_structure": {
+          "cost_min": 150,
+          "cost_max": 150,
+          "currency": "USD",
+          "sliding_scale_available": true,
+          "session_type": "Individual Therapy"
+        },
+        "insurance": {
+          "in_network_plans": [],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": [],
+        "modalities": ["Holistic"],
+        "populations": ["Adults"]
+      },
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "boston_csgb_043",
+      "identity": {
+        "name": "Simona Granfone",
+        "credentials": ["LMHC", "ATR"],
+        "title": "Licensed Mental Health Counselor",
+        "profile_url": "https://www.csgboston.com/home/our-counselors/simona-granfone-lmhc-atr/",
+        "narrative": "Simona Granfone is a dual-credentialed LMHC and Art Therapist (ATR) within the highly insurance-friendly Boston market. Her practice, CSGB, accepts a wide array of regional insurance plans, making her specialized art therapy services available to a broad audience without the high out-of-pocket costs seen in other cities."
+      },
+      "economics": {
+        "fee_structure": {
+          "cost_min": 160,
+          "cost_max": 160,
+          "currency": "USD",
+          "sliding_scale_available": false,
+          "session_type": "Individual Therapy (60 min)"
+        },
+        "insurance": {
+          "in_network_plans": [
+            "Mass General Brigham",
+            "Tufts",
+            "Harvard Pilgrim"
+          ],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": [],
+        "modalities": ["Art Therapy"],
+        "populations": ["Adults"]
+      },
+      "location": {
+        "city": "Wakefield",
+        "state": "MA",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "boston_csgb_044",
+      "identity": {
+        "name": "Nicole Dion",
+        "credentials": ["LMHC"],
+        "title": "Licensed Mental Health Counselor",
+        "profile_url": "https://www.csgboston.com/home/our-counselors/nicole-dion-lmhc/",
+        "narrative": "Nicole Dion is an LMHC providing general mental health services in the Boston area. Her role as a generalist is crucial for the large number of individuals seeking support for common issues like anxiety and depression within an insurance-based system."
+      },
+      "economics": {
+        "fee_structure": {
+          "cost_min": 160,
+          "cost_max": 160,
+          "currency": "USD",
+          "sliding_scale_available": false,
+          "session_type": "Individual Therapy (60 min)"
+        },
+        "insurance": {
+          "in_network_plans": [
+            "Mass General Brigham",
+            "Tufts",
+            "Harvard Pilgrim"
+          ],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": ["General Mental Health", "Anxiety", "Depression"],
+        "modalities": [],
+        "populations": ["Adults"]
+      },
+      "location": {
+        "city": "Wakefield",
+        "state": "MA",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "boston_csgb_045",
+      "identity": {
+        "name": "Colette Crowley",
+        "credentials": ["LMHC", "ATR"],
+        "title": "Licensed Mental Health Counselor",
+        "profile_url": "https://www.csgboston.com/home/our-counselors/colette-crowley-lmhc-atr/",
+        "narrative": "Colette Crowley, like her colleagues at CSGB, is an LMHC and Art Therapist who benefits from the insurance-mandated Massachusetts market. Her profile highlights the accessibility of specialized creative therapies in a region where insurance coverage is widespread."
+      },
+      "economics": {
+        "fee_structure": {
+          "cost_min": 160,
+          "cost_max": 160,
+          "currency": "USD",
+          "sliding_scale_available": false,
+          "session_type": "Individual Therapy (60 min)"
+        },
+        "insurance": {
+          "in_network_plans": [
+            "Mass General Brigham",
+            "Tufts",
+            "Harvard Pilgrim"
+          ],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": [],
+        "modalities": ["Art Therapy"],
+        "populations": ["Adults"]
+      },
+      "location": {
+        "city": "Georgetown",
+        "state": "MA",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "seattle_scw_030",
+      "identity": {
+        "name": "Yachi Tseng",
+        "credentials": ["LMHCA"],
+        "title": "Licensed Mental Health Counselor Associate",
+        "profile_url": "https://www.seattlecounselingandwellness.com/our-team",
+        "narrative": "Yachi Tseng is an LMHCA in Seattle, a market known for its focus on identity and social justice. As an associate, she provides care at a competitive rate for the area while working towards full licensure, contributing to the tiered system that balances cost and experience."
+      },
+      "economics": {
+        "fee_structure": {
+          "cost_min": 165,
+          "cost_max": 210,
+          "currency": "USD",
+          "sliding_scale_available": false,
+          "session_type": "Individual Therapy"
+        },
+        "insurance": {
+          "in_network_plans": ["Premera", "Regence"],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": [],
+        "modalities": [],
+        "populations": ["Adults"]
+      },
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "telehealth": true
+      }
+    },
+    {
+      "provider_id": "old_profile_1",
+      "identity": {
+        "name": "Jessica Knapp",
+        "credentials": ["LCSW"],
+        "title": "Clinical Social Work/Therapist",
+        "profile_url": "https://www.psychologytoday.com/us/therapists/jessica-knapp-new-york-ny/408799",
+        "narrative": "I treat those with difficult life experiences, trauma, family/relationship conflicts, anxiety, depression, substance use issues, low self-esteem and anger issues. Being trans, queer, kinky, having trauma or mental health issues often means being told you're unlovable or inconvenient; in response, I recognize my clients' strengths and humanity.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 250,
+          "cost_max": 250,
+          "currency": "USD",
+          "sliding_scale_available": true
+        },
+        "insurance": {
+          "in_network_plans": ["Optum"],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Transgender",
+          "Trauma and PTSD",
+          "Anxiety",
+          "Depression",
+          "LGBTQ+",
+          "Kink/BDSM",
+          "Stress",
+          "Family Conflict"
+        ],
+        "modalities": [
+          "EMDR",
+          "Psychodynamic",
+          "Trauma Focused",
+          "Strength-Based"
+        ],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": true
+      },
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "telehealth": true
+      },
+      "platform": "Psychology Today",
+      "education": "GRCMSW Program at Nazareth College and SUNY Brockport",
+      "yearsInPractice": 11
+    },
+    {
+      "provider_id": "old_profile_2",
+      "identity": {
+        "name": "Victoria Rivera",
+        "credentials": ["LCSW"],
+        "title": "Clinical Social Work/Therapist",
+        "profile_url": "https://www.psychologytoday.com/us/therapists/victoria-rivera-lcsw-wellness-psychotherapist-new-york-ny/216698",
+        "narrative": "I specialize in working with high-functioning women navigating anxiety, perfectionism, and life transitions, especially during midlife and perimenopause. Utilizing a holistic approach to therapy, I incorporate the 9 dimensions of wellness in your treatment.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 300,
+          "cost_max": 300,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "couples_fee_structure": {
+          "session_type": "Couples Therapy",
+          "cost_min": 450,
+          "cost_max": 450,
+          "currency": "USD"
+        },
+        "insurance": {
+          "in_network_plans": [],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Anxiety",
+          "Relationship Issues",
+          "Women's Issues",
+          "Depression",
+          "Life Transitions",
+          "Perimenopause and Menopause",
+          "Grief",
+          "Stress"
+        ],
+        "modalities": [
+          "CBT",
+          "Psychodynamic",
+          "Mindfulness-Based",
+          "Integrative",
+          "Emotionally Focused"
+        ],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": true
+      },
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "telehealth": true
+      },
+      "platform": "Psychology Today",
+      "education": "Columbia University",
+      "yearsInPractice": 20
+    },
+    {
+      "provider_id": "old_profile_3",
+      "identity": {
+        "name": "Marcy A. Rubin",
+        "credentials": ["PsyD"],
+        "title": "Psychologist",
+        "profile_url": "https://www.psychologytoday.com/us/therapists/marcy-a-rubin-psy-d-chicago-il/45772",
+        "narrative": "I am a clinical psychologist and neuroplasticity wellness coach with 25 years of experience. I specialize in reframing, cognitive processing with emotional regulation and resilience for anxiety, depression, trauma, life transitions, ADHD, motivation, career goals, relationships, family dynamics, communication, and stress management.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": [
+            "Empire Blue Cross Blue Shield",
+            "Magellan",
+            "Medicare"
+          ],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Anxiety",
+          "Life Transitions",
+          "Coping Skills",
+          "Depression",
+          "Trauma",
+          "ADHD",
+          "Career Goals",
+          "Relationships"
+        ],
+        "modalities": [
+          "CBT",
+          "Positive Psychology",
+          "Mindfulness",
+          "Solution Focused"
+        ],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": false
+      },
+      "location": {
+        "city": "Chicago",
+        "state": "IL",
+        "telehealth": true
+      },
+      "platform": "Psychology Today",
+      "education": "Chicago School of Professional Psychology",
+      "yearsInPractice": 26
+    },
+    {
+      "provider_id": "old_profile_4",
+      "identity": {
+        "name": "Kat Jones",
+        "credentials": ["PsyD"],
+        "title": "Psychologist",
+        "profile_url": "https://www.psychologytoday.com/us/therapists/kat-jones-chicago-il/975627",
+        "narrative": "Specializing in LGBTQ+ issues, transgender health, trauma and PTSD, with expertise in working with diverse relationship structures and identities.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "LGBTQ+",
+          "Transgender",
+          "Trauma and PTSD",
+          "Anxiety",
+          "Bipolar Disorder",
+          "Body Image",
+          "Depression",
+          "Open Relationships"
+        ],
+        "modalities": ["Trauma Focused", "Affirming Therapy"],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": true
+      },
+      "location": {
+        "city": "Chicago",
+        "state": "IL",
+        "telehealth": true
+      },
+      "platform": "Psychology Today",
+      "education": "The Chicago School of Professional Psychology",
+      "yearsInPractice": 11
+    },
+    {
+      "provider_id": "old_profile_5",
+      "identity": {
+        "name": "Daniel A. Edwards",
+        "credentials": ["PsyD"],
+        "title": "Psychologist",
+        "profile_url": "https://www.psychologytoday.com/us/therapists/daniel-a-edwards-psyd-chicago-il/340944",
+        "narrative": "I specialize in existential/humanistic and psychodynamic psychotherapy. I have extensive experience with college students, artists, healthcare workers, lawyers, and tech workers. I have international experience and would be ideal for clients who travel but want a consistent therapist.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": [],
+          "out_of_network_eligible": true,
+          "superbill_provided": true
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Existential Therapy",
+          "Anxiety",
+          "Depression",
+          "Life Transitions",
+          "Artists' Mental Health",
+          "Healthcare Workers"
+        ],
+        "modalities": [
+          "Existential/Humanistic",
+          "Psychodynamic",
+          "Mindfulness",
+          "CBT"
+        ],
+        "populations": ["Adults", "College Students"],
+        "languages": ["English"],
+        "lgbtq_affirming": false
+      },
+      "location": {
+        "city": "Chicago",
+        "state": "IL",
+        "telehealth": true
+      },
+      "platform": "Psychology Today",
+      "education": "Contact for details",
+      "yearsInPractice": 10
+    },
+    {
+      "provider_id": "old_profile_6",
+      "identity": {
+        "name": "Rashmi Pandey",
+        "credentials": ["PsyD"],
+        "title": "Psychologist",
+        "profile_url": "https://www.psychologytoday.com/us/therapists/rashmi-pandey-chicago-il/101945",
+        "narrative": "Trust is how I define myself! Building a strong therapeutic alliance through trust and confidence is quintessential to positive change in life! When life gets tough, one should consider beginning treatment with a professional trained with brief, solution-focused, cognitive behavioral therapeutic approach.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 300,
+          "cost_max": 300,
+          "currency": "USD",
+          "sliding_scale_available": true
+        },
+        "couples_fee_structure": {
+          "session_type": "Couples Therapy",
+          "cost_min": 450,
+          "cost_max": 450,
+          "currency": "USD"
+        },
+        "insurance": {
+          "in_network_plans": ["Aetna", "BlueCross and BlueShield", "Medicare"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Relationships",
+          "Depression",
+          "Anxiety",
+          "Anger Management",
+          "Parenting",
+          "Acculturation",
+          "Grief",
+          "Substance Abuse"
+        ],
+        "modalities": ["CBT", "Solution-Focused"],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": false
+      },
+      "location": {
+        "city": "Chicago",
+        "state": "IL",
+        "telehealth": true
+      },
+      "platform": "Psychology Today",
+      "education": "Contact for details",
+      "yearsInPractice": 26
+    },
+    {
+      "provider_id": "old_profile_7",
+      "identity": {
+        "name": "Chandan R. Bhagia",
+        "credentials": ["PsyD"],
+        "title": "Psychologist",
+        "profile_url": "https://www.psychologytoday.com/us/therapists/il/chicago/loop",
+        "narrative": "My approach to therapy is informed by mindfulness practices, focused on assisting my clients in 'opening up' to the present moment while connecting to their values to strive toward their 'Best Self!' I focus on assisting clients in attending to their relational concerns.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Mindfulness",
+          "Relationships",
+          "Values-Based Therapy",
+          "Emotional Distress",
+          "Personal Growth"
+        ],
+        "modalities": ["ACT", "Mindfulness-Based"],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": false
+      },
+      "location": {
+        "city": "Chicago",
+        "state": "IL",
+        "telehealth": true
+      },
+      "platform": "Psychology Today",
+      "education": "Contact for details",
+      "yearsInPractice": 13
+    },
+    {
+      "provider_id": "old_profile_8",
+      "identity": {
+        "name": "Erica Bell",
+        "credentials": ["LCSW"],
+        "title": "Clinical Social Worker",
+        "profile_url": "https://www.therapyden.com/therapist/erica-bell",
+        "narrative": "I call myself an anti-perfectionist therapist. The main struggles that have always hit home for me have been black and brown women who feel like they *have to or should* be all things to everyone and everything. I assist women in releasing perfectionism, stress, and challenging self-defeating narratives.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Perfectionism",
+          "Stress",
+          "Self-Defeating Narratives",
+          "Women's Issues",
+          "BIPOC Mental Health"
+        ],
+        "modalities": ["Whole-Person Approach", "Narrative Therapy"],
+        "populations": ["Adults", "Women"],
+        "languages": ["English"],
+        "lgbtq_affirming": false,
+        "poc_focused": true
+      },
+      "location": {
+        "city": "Contact for location",
+        "state": "Contact",
+        "telehealth": true
+      },
+      "platform": "TherapyDen",
+      "education": "Contact for details",
+      "yearsInPractice": 15
+    },
+    {
+      "provider_id": "old_profile_9",
+      "identity": {
+        "name": "Karina Ray",
+        "credentials": ["LMHC", "ATR"],
+        "title": "Licensed Mental Health Counselor, Art Therapist",
+        "profile_url": "https://www.therapyden.com/therapist/karina-ray",
+        "narrative": "I'm a holistic Art Therapist who believes in radical compassion for self and others. The traumatized who seek personal power come to me. Those who don't know how to grieve but are mired in depression come to me. I serve pregnant and postpartum women and young adults.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Trauma",
+          "Depression",
+          "Art Therapy",
+          "Anxiety",
+          "Addiction Recovery",
+          "Postpartum",
+          "Young Adults"
+        ],
+        "modalities": [
+          "Art Therapy",
+          "Trauma-Informed",
+          "Motivational Interviewing"
+        ],
+        "populations": ["Adults", "Young Adults", "Postpartum Women"],
+        "languages": ["English"],
+        "lgbtq_affirming": true
+      },
+      "location": {
+        "city": "Washington",
+        "state": "WA",
+        "telehealth": true
+      },
+      "platform": "TherapyDen",
+      "education": "Contact for details",
+      "yearsInPractice": 15
+    },
+    {
+      "provider_id": "old_profile_10",
+      "identity": {
+        "name": "Tonya Frazier",
+        "credentials": ["PhD", "LCPC"],
+        "title": "Licensed Clinical Professional Counselor",
+        "profile_url": "https://www.therapyden.com/therapist/tonya-frazier-silver-spring-md",
+        "narrative": "Currently I am providing individual therapy to adults only. I am looking to engage with clients who are ready to make lasting change and a commitment to growth. My focus is on the areas of trauma, depression, grief/loss including reproductive grief and loss.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Trauma",
+          "Depression",
+          "Grief/Loss",
+          "Reproductive Grief",
+          "Women's Mental Health"
+        ],
+        "modalities": ["CBT", "DBT", "Internal Family Systems", "EFT/Tapping"],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": false
+      },
+      "location": {
+        "city": "Silver Spring",
+        "state": "MD",
+        "telehealth": true
+      },
+      "platform": "TherapyDen",
+      "education": "PhD",
+      "yearsInPractice": 10
+    },
+    {
+      "provider_id": "old_profile_11",
+      "identity": {
+        "name": "Mary McManaman",
+        "credentials": ["PhD"],
+        "title": "Psychologist",
+        "profile_url": "https://www.therapyden.com/therapist/mary-mcmanaman-lancaster-pa",
+        "narrative": "I take an integrative approach to therapy, tailoring sessions to suit the needs of my clients. I value humor, kindness, and warmth in creating an accepting and nonjudgmental environment for each client.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Family Issues",
+          "Identity Development",
+          "Life Transitions",
+          "Stress Management",
+          "Self-Discovery"
+        ],
+        "modalities": ["Integrative", "Person-Centered"],
+        "populations": ["Adults", "All Ages"],
+        "languages": ["English"],
+        "lgbtq_affirming": false
+      },
+      "location": {
+        "city": "Lancaster",
+        "state": "PA",
+        "telehealth": true
+      },
+      "platform": "TherapyDen",
+      "education": "PhD in Clinical Developmental Psychology from Bryn Mawr College, MA from UC Berkeley",
+      "yearsInPractice": 15
+    },
+    {
+      "provider_id": "old_profile_12",
+      "identity": {
+        "name": "Dr. Wonbin Jung",
+        "credentials": ["PhD"],
+        "title": "Licensed Marriage & Family Therapist",
+        "profile_url": "https://www.inclusivetherapists.com/washington/seattle/dr-wonbin-jung",
+        "narrative": "Queer Asian therapist creating space for QTBIPOC/AAPI clients to explore sexuality, gender, intergenerational & relational trauma, and challenges in romantic partnerships and find their paths forward.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 275,
+          "cost_max": 275,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "couples_fee_structure": {
+          "session_type": "Couples Therapy",
+          "cost_min": 300,
+          "cost_max": 300,
+          "currency": "USD"
+        },
+        "insurance": {
+          "in_network_plans": ["Private Pay"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "LGBTQIA+",
+          "Sexuality",
+          "Intergenerational Trauma",
+          "Gender Identity",
+          "Relationships",
+          "AAPI Mental Health"
+        ],
+        "modalities": ["Affirming Therapy", "Trauma-Informed"],
+        "populations": ["Adults", "QTBIPOC", "AAPI"],
+        "languages": ["English"],
+        "lgbtq_affirming": true,
+        "poc_focused": true
+      },
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "telehealth": true
+      },
+      "platform": "Inclusive Therapists",
+      "education": "PhD",
+      "yearsInPractice": 10
+    },
+    {
+      "provider_id": "old_profile_13",
+      "identity": {
+        "name": "Frances Huang",
+        "credentials": ["Contact for credentials"],
+        "title": "Therapist",
+        "profile_url": "https://www.wovetherapy.com/frances-huang",
+        "narrative": "Frances is an autistic, nonbinary and queer, disabled, bilingual immigrant. They work through a person centered, trauma informed, and feminist framework.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Trauma",
+          "Disability",
+          "Immigration",
+          "Autism",
+          "Neurodivergence"
+        ],
+        "modalities": ["Person-Centered", "Trauma-Informed", "Feminist"],
+        "populations": ["Adults"],
+        "languages": ["English", "Chinese"],
+        "lgbtq_affirming": true
+      },
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "telehealth": true
+      },
+      "platform": "Wove Therapy",
+      "education": "Contact for details",
+      "yearsInPractice": 5
+    },
+    {
+      "provider_id": "old_profile_14",
+      "identity": {
+        "name": "Vikiea Mckamie",
+        "credentials": ["Contact for credentials"],
+        "title": "Therapist",
+        "profile_url": "https://www.inclusivetherapists.com/search_results",
+        "narrative": "Clients describe me as authentic & nonjudgmental. I want therapy to be the opposite of a doctor's visit! Here we can laugh/cry/yell, all emotions are accepted.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Anxiety",
+          "Depression",
+          "Life Transitions",
+          "Authenticity",
+          "Self-Discovery"
+        ],
+        "modalities": ["Humanistic", "Client-Centered"],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": true
+      },
+      "location": {
+        "city": "Brea",
+        "state": "CA",
+        "telehealth": true
+      },
+      "platform": "Inclusive Therapists",
+      "education": "Contact for details",
+      "yearsInPractice": 8
+    },
+    {
+      "provider_id": "old_profile_15",
+      "identity": {
+        "name": "Rae McDaniel",
+        "credentials": ["Contact for credentials"],
+        "title": "Therapist",
+        "profile_url": "https://www.inclusivetherapists.com/psypact",
+        "narrative": "Therapy for creatives, leaders & LGBTQ+ folks ready to grow, heal, and live audaciously. Trauma-informed & radically affirming.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "LGBTQ+",
+          "Trauma",
+          "Creatives",
+          "Leadership",
+          "Personal Growth"
+        ],
+        "modalities": ["Trauma-Informed", "Affirming Therapy"],
+        "populations": ["Adults", "Creatives", "Leaders"],
+        "languages": ["English"],
+        "lgbtq_affirming": true
+      },
+      "location": {
+        "city": "Chicago",
+        "state": "IL",
+        "telehealth": true
+      },
+      "platform": "Inclusive Therapists",
+      "education": "Contact for details",
+      "yearsInPractice": 10
+    },
+    {
+      "provider_id": "old_profile_16",
+      "identity": {
+        "name": "Sarah Malavenda",
+        "credentials": ["Contact for credentials"],
+        "title": "Therapist",
+        "profile_url": "https://www.inclusivetherapists.com/united-states/illinois/chicago",
+        "narrative": "My style is compassionate, calm, and curious. In session, I offer an interactive approach based on trust and respect so you don't feel alone when things get messy.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Anxiety",
+          "Depression",
+          "Life Transitions",
+          "Relationships",
+          "Trust Building"
+        ],
+        "modalities": ["Interactive", "Compassionate"],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": true
+      },
+      "location": {
+        "city": "Chicago",
+        "state": "IL",
+        "telehealth": true
+      },
+      "platform": "Inclusive Therapists",
+      "education": "Contact for details",
+      "yearsInPractice": 8
+    },
+    {
+      "provider_id": "old_profile_17",
+      "identity": {
+        "name": "Jane Bennett-Elias",
+        "credentials": ["Contact for credentials"],
+        "title": "Therapist",
+        "profile_url": "https://www.inclusivetherapists.com/united-states/illinois/chicago",
+        "narrative": "I am a therapist with over 25 years experience treating anxiety, panic, OCD and depression. I also have worked extensively with grief, life transitions, relationship and occupational issues, including burnout.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Anxiety",
+          "Panic",
+          "OCD",
+          "Depression",
+          "Grief",
+          "Life Transitions",
+          "Burnout"
+        ],
+        "modalities": ["CBT", "Exposure Therapy"],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": false
+      },
+      "location": {
+        "city": "Chicago",
+        "state": "IL",
+        "telehealth": true
+      },
+      "platform": "Inclusive Therapists",
+      "education": "Contact for details",
+      "yearsInPractice": 25
+    },
+    {
+      "provider_id": "old_profile_18",
+      "identity": {
+        "name": "Fae Kobernik",
+        "credentials": ["Contact for credentials"],
+        "title": "Therapist",
+        "profile_url": "https://www.inclusivetherapists.com/united-states/illinois/chicago",
+        "narrative": "Queer, disabled therapist supporting LGBTQ+ folks of all ages with warmth, humor, and deep care. Identity-affirming, radically inclusive healing.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "LGBTQ+",
+          "Identity",
+          "Disability",
+          "Affirming Care",
+          "Youth Mental Health"
+        ],
+        "modalities": ["Identity-Affirming", "Radically Inclusive"],
+        "populations": ["All Ages", "LGBTQ+"],
+        "languages": ["English"],
+        "lgbtq_affirming": true
+      },
+      "location": {
+        "city": "Chicago",
+        "state": "IL",
+        "telehealth": true
+      },
+      "platform": "Inclusive Therapists",
+      "education": "Contact for details",
+      "yearsInPractice": 5
+    },
+    {
+      "provider_id": "old_profile_19",
+      "identity": {
+        "name": "Dr. Warren Braden",
+        "credentials": ["LMFT-IT"],
+        "title": "Marriage & Family Therapist Intern",
+        "profile_url": "https://openpathcollective.org/clinicians/dr-warren-braden/",
+        "narrative": "My role is to be your partner in your healing journey. I have years of experience helping individuals, couples, and families and would be honored to walk with you during this process.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 30,
+          "cost_max": 40,
+          "currency": "USD",
+          "sliding_scale_available": true
+        },
+        "insurance": {
+          "in_network_plans": ["Open Path Member Rates"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Couples/Marriage",
+          "Depression",
+          "Grief & Loss",
+          "Anger Management",
+          "Life Coaching",
+          "Multicultural Concerns"
+        ],
+        "modalities": ["Family Systems", "Integrative"],
+        "populations": ["Adults", "Adolescents", "Children", "Elders"],
+        "languages": ["English"],
+        "lgbtq_affirming": false
+      },
+      "location": {
+        "city": "Chicago",
+        "state": "IL",
+        "telehealth": true
+      },
+      "platform": "Open Path Collective",
+      "education": "Doctoral studies",
+      "yearsInPractice": 3
+    },
+    {
+      "provider_id": "old_profile_20",
+      "identity": {
+        "name": "Suzanne Kent",
+        "credentials": ["LCSW"],
+        "title": "Clinical Social Worker",
+        "profile_url": "https://openpathcollective.org/clinicians/suzanne-kent/",
+        "narrative": "I have been working as a counselor/therapist for a long time and have studied many different treatment types and styles so hopefully together we can find some ways to help you achieve your treatment goals. I also have a comfort dog available.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 40,
+          "cost_max": 70,
+          "currency": "USD",
+          "sliding_scale_available": true
+        },
+        "insurance": {
+          "in_network_plans": ["Open Path Member Rates"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Anxiety",
+          "Depression",
+          "Life Transitions",
+          "Various Treatment Types",
+          "Comfort Dog Available"
+        ],
+        "modalities": ["Eclectic", "Integrative"],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": false
+      },
+      "location": {
+        "city": "Chattanooga",
+        "state": "TN",
+        "telehealth": true
+      },
+      "platform": "Open Path Collective",
+      "education": "Contact for details",
+      "yearsInPractice": 20
+    },
+    {
+      "provider_id": "old_profile_21",
+      "identity": {
+        "name": "Lindsie Meek",
+        "credentials": ["LCSW", "LICSW", "CEDS-C"],
+        "title": "Clinical Social Worker",
+        "profile_url": "https://www.therapyden.com/therapist/lindsie-meek-brooklyn-ny",
+        "narrative": "Hi! I'm Lindsie Meek, a certified eating disorder therapist and consultant with nearly a decade of clinical experience. Struggling with an obsession with food and your body? Maybe you struggle with perfectionism or constantly questioning if you are good enough.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Eating Disorders",
+          "Perfectionism",
+          "Body Image",
+          "Self-Esteem",
+          "Relationships"
+        ],
+        "modalities": ["Specialized Eating Disorder Treatment"],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": true
+      },
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "telehealth": true
+      },
+      "platform": "TherapyDen",
+      "education": "Contact for details",
+      "yearsInPractice": 10
+    },
+    {
+      "provider_id": "old_profile_22",
+      "identity": {
+        "name": "Kristin Michaelson",
+        "credentials": ["LMSW", "LSW"],
+        "title": "Licensed Master of Social Work",
+        "profile_url": "https://www.therapyden.com/therapist/kristin-michaelson-new-york-ny",
+        "narrative": "Depression & Anxiety Therapist offering both Traditional and Nature Therapy in NJ & NY.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Depression",
+          "Anxiety",
+          "Nature Therapy",
+          "Traditional Therapy",
+          "Outdoor Sessions"
+        ],
+        "modalities": ["Nature Therapy", "Traditional Talk Therapy"],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": false
+      },
+      "location": {
+        "city": "New York/New Jersey",
+        "state": "NY/NJ",
+        "telehealth": true
+      },
+      "platform": "TherapyDen",
+      "education": "MSW",
+      "yearsInPractice": 5
+    },
+    {
+      "provider_id": "old_profile_23",
+      "identity": {
+        "name": "Dr. Cynthia Giocomarra",
+        "credentials": ["PsyD", "LMFT"],
+        "title": "Psychologist, Marriage & Family Therapist",
+        "profile_url": "https://www.therapyden.com/therapist/dr-cynthia-giocomarra-new-york-ny",
+        "narrative": "Effective Holistic therapy available for Individuals, Couples, & Families. Tailored empathic sessions delivered online. Let's connect.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Holistic Therapy",
+          "Couples",
+          "Family",
+          "Individual Therapy",
+          "Life Transitions"
+        ],
+        "modalities": ["Holistic", "Integrative"],
+        "populations": ["Adults", "Couples", "Families"],
+        "languages": ["English"],
+        "lgbtq_affirming": false
+      },
+      "location": {
+        "city": "Online",
+        "state": "Various",
+        "telehealth": true
+      },
+      "platform": "TherapyDen",
+      "education": "PsyD",
+      "yearsInPractice": 15
+    },
+    {
+      "provider_id": "old_profile_24",
+      "identity": {
+        "name": "Nicole Wagner",
+        "credentials": ["LCSW-R"],
+        "title": "Licensed Clinical Social Worker",
+        "profile_url": "https://www.therapyden.com/therapist/nicole-wagner-white-plains-ny",
+        "narrative": "I help clients access their most authentic selves through a variety of modalities.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Authenticity",
+          "Self-Discovery",
+          "Personal Growth",
+          "Various Modalities"
+        ],
+        "modalities": ["Multimodal", "Integrative"],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": false
+      },
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "telehealth": true
+      },
+      "platform": "TherapyDen",
+      "education": "MSW",
+      "yearsInPractice": 10
+    },
+    {
+      "provider_id": "old_profile_25",
+      "identity": {
+        "name": "Dylan Nelson-Sease",
+        "credentials": ["LPC"],
+        "title": "Licensed Professional Counselor",
+        "profile_url": "https://www.therapyden.com/therapists/us/ny/new-york",
+        "narrative": "A person is not a set of symptoms to me. I treat anxiety, depression and trauma, but I view everyone holistically and without judgement.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Anxiety",
+          "Depression",
+          "Trauma",
+          "Holistic Treatment"
+        ],
+        "modalities": ["Holistic", "Person-Centered"],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": false
+      },
+      "location": {
+        "city": "Contact for location",
+        "state": "Contact",
+        "telehealth": true
+      },
+      "platform": "TherapyDen",
+      "education": "MA in Counseling",
+      "yearsInPractice": 5
+    },
+    {
+      "provider_id": "old_profile_26",
+      "identity": {
+        "name": "Chaya Luss",
+        "credentials": ["LPCC"],
+        "title": "Licensed Professional Clinical Counselor",
+        "profile_url": "https://www.therapyden.com/therapists/us/mn/minneapolis",
+        "narrative": "I'm Chaya—IFS, EMDR & somatic therapist in Minnesota. I show up with warmth, curiosity, and belief in your capacity to heal and grow.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Trauma",
+          "EMDR",
+          "IFS",
+          "Somatic Therapy",
+          "Healing",
+          "Growth"
+        ],
+        "modalities": ["IFS", "EMDR", "Somatic"],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": false
+      },
+      "location": {
+        "city": "Minneapolis",
+        "state": "MN",
+        "telehealth": true
+      },
+      "platform": "TherapyDen",
+      "education": "Contact for details",
+      "yearsInPractice": 8
+    },
+    {
+      "provider_id": "old_profile_27",
+      "identity": {
+        "name": "Christina Dee",
+        "credentials": ["MA"],
+        "title": "Psychotherapist",
+        "profile_url": "https://www.therapyden.com/therapists/us/mn/minneapolis",
+        "narrative": "Immediate availability! My approach to therapy is warm and interactive. You'll find me using humor a lot and having fun in therapy sessions.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Anxiety",
+          "Depression",
+          "Life Transitions",
+          "Interactive Approach",
+          "Humor in Therapy"
+        ],
+        "modalities": ["Interactive", "Warm"],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": false
+      },
+      "location": {
+        "city": "Minneapolis",
+        "state": "MN",
+        "telehealth": true
+      },
+      "platform": "TherapyDen",
+      "education": "MA in Applied Psychological Science",
+      "yearsInPractice": 5
+    },
+    {
+      "provider_id": "old_profile_28",
+      "identity": {
+        "name": "Levi Weinhagen",
+        "credentials": ["LGSW"],
+        "title": "Licensed Graduate Social Worker",
+        "profile_url": "https://www.therapyden.com/therapists/us/mn/minneapolis",
+        "narrative": "I'm a race and gender justice worker, a licensed mental health therapist, a theater maker, and a teaching artist.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Race and Gender Justice",
+          "Social Justice",
+          "Theater/Arts",
+          "Teaching Artist",
+          "Activism"
+        ],
+        "modalities": ["Social Justice Oriented", "Creative"],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": true
+      },
+      "location": {
+        "city": "Minneapolis",
+        "state": "MN",
+        "telehealth": true
+      },
+      "platform": "TherapyDen",
+      "education": "MSW",
+      "yearsInPractice": 8
+    },
+    {
+      "provider_id": "old_profile_29",
+      "identity": {
+        "name": "Maria Graff",
+        "credentials": ["MA"],
+        "title": "Mental Health Practitioner",
+        "profile_url": "https://www.therapyden.com/therapists/us/mn/minneapolis",
+        "narrative": "Warm, curious, and real. I help people deepen relationships—with partners, family, and themselves—through humor and authenticity.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Relationships",
+          "Couples",
+          "Self-Discovery",
+          "Family Therapy",
+          "Authenticity"
+        ],
+        "modalities": ["Relational", "Humor-Based"],
+        "populations": ["Adults", "Couples"],
+        "languages": ["English"],
+        "lgbtq_affirming": false
+      },
+      "location": {
+        "city": "Minneapolis",
+        "state": "MN",
+        "telehealth": true
+      },
+      "platform": "TherapyDen",
+      "education": "MA",
+      "yearsInPractice": 10
+    },
+    {
+      "provider_id": "old_profile_30",
+      "identity": {
+        "name": "Joanna Flamm",
+        "credentials": ["BFA", "MA"],
+        "title": "Therapist",
+        "profile_url": "https://www.therapyden.com/therapists/us/mn/minneapolis",
+        "narrative": "If you are funny, fat, creative, brash, bold, thoughtful, anxious, searching, or a little bit 'different', we'll have a lot in common.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Anxiety",
+          "Creatives",
+          "Body Positivity",
+          "Unique Identities",
+          "Self-Acceptance"
+        ],
+        "modalities": ["Creative", "Affirming"],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": true
+      },
+      "location": {
+        "city": "Minneapolis",
+        "state": "MN",
+        "telehealth": true
+      },
+      "platform": "TherapyDen",
+      "education": "BFA, MA",
+      "yearsInPractice": 8
+    },
+    {
+      "provider_id": "old_profile_31",
+      "identity": {
+        "name": "Emma Kim Rust",
+        "credentials": ["MA", "LCSW"],
+        "title": "Clinical Social Worker",
+        "profile_url": "https://www.therapyden.com/therapists/us/mn/minneapolis",
+        "narrative": "I'm a queer, enby, mixed race abolitionist therapist, specialized in Contextual-Dialectical Behavior Therapy with a liberatory lens.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "DBT",
+          "Liberation Psychology",
+          "Social Justice",
+          "Queer Issues",
+          "Mixed Race Identity",
+          "Abolition"
+        ],
+        "modalities": ["Contextual-Dialectical Behavior Therapy", "Liberatory"],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": true,
+        "poc_focused": true
+      },
+      "location": {
+        "city": "Minneapolis",
+        "state": "MN",
+        "telehealth": true
+      },
+      "platform": "TherapyDen",
+      "education": "MA, LCSW",
+      "yearsInPractice": 5
+    },
+    {
+      "provider_id": "old_profile_32",
+      "identity": {
+        "name": "Aleksandra Slijepcevic",
+        "credentials": ["Contact for credentials"],
+        "title": "Therapist",
+        "profile_url": "https://www.inclusivetherapists.com/united-states/california/los-angeles",
+        "narrative": "I am passionate about supporting clients who struggle with anxiety, stress, and burnout, by utilizing somatic therapy techniques and nervous system regulation for holistic mind-body care.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Anxiety",
+          "Stress",
+          "Burnout",
+          "Somatic Therapy",
+          "Nervous System Regulation"
+        ],
+        "modalities": ["Somatic", "Holistic Mind-Body"],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": true
+      },
+      "location": {
+        "city": "Los Angeles",
+        "state": "CA",
+        "telehealth": true
+      },
+      "platform": "Inclusive Therapists",
+      "education": "Contact for details",
+      "yearsInPractice": 8
+    },
+    {
+      "provider_id": "old_profile_33",
+      "identity": {
+        "name": "Michelé Lopez",
+        "credentials": ["LCSW"],
+        "title": "Licensed Clinical Social Worker",
+        "profile_url": "https://www.inclusivetherapists.com/united-states/california/los-angeles",
+        "narrative": "Hello, I'm Michelé, a Licensed Clinical Social Worker and Psychotherapist. I am a dedicated therapist with a deep commitment to creating a supportive and understanding therapeutic space for you.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Anxiety",
+          "Depression",
+          "Trauma",
+          "Supportive Care",
+          "Safe Space Creation"
+        ],
+        "modalities": ["Supportive", "Trauma-Informed"],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": true
+      },
+      "location": {
+        "city": "Los Angeles",
+        "state": "CA",
+        "telehealth": true
+      },
+      "platform": "Inclusive Therapists",
+      "education": "MSW",
+      "yearsInPractice": 10
+    },
+    {
+      "provider_id": "old_profile_34",
+      "identity": {
+        "name": "Andra Yoel",
+        "credentials": ["Contact for credentials"],
+        "title": "Therapist",
+        "profile_url": "https://www.inclusivetherapists.com/united-states/california/los-angeles",
+        "narrative": "YOU-centered therapy, a safe warm place for individuals and couples to (re)connect and continue on the path that restores and delights most.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Couples Therapy",
+          "Connection",
+          "Relationships",
+          "Individual Therapy",
+          "Self-Discovery"
+        ],
+        "modalities": ["Person-Centered", "Couples Work"],
+        "populations": ["Adults", "Couples"],
+        "languages": ["English"],
+        "lgbtq_affirming": true
+      },
+      "location": {
+        "city": "Los Angeles",
+        "state": "CA",
+        "telehealth": true
+      },
+      "platform": "Inclusive Therapists",
+      "education": "Contact for details",
+      "yearsInPractice": 12
+    },
+    {
+      "provider_id": "old_profile_35",
+      "identity": {
+        "name": "Mallory Keeks",
+        "credentials": ["Contact for credentials"],
+        "title": "Art Therapist/Counselor",
+        "profile_url": "https://www.inclusivetherapists.com/texas/austin/mallory-keeks",
+        "narrative": "Creative and compassionate support for all bodies, all identities, and all abilities | grounded in liberation, connection, authenticity, & collaboration.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Art Therapy",
+          "Liberation",
+          "Authenticity",
+          "All Bodies",
+          "All Identities",
+          "All Abilities"
+        ],
+        "modalities": ["Art Therapy", "Creative", "Collaborative"],
+        "populations": ["Adults", "All Identities"],
+        "languages": ["English"],
+        "lgbtq_affirming": true
+      },
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "telehealth": true
+      },
+      "platform": "Inclusive Therapists",
+      "education": "Contact for details",
+      "yearsInPractice": 8
+    },
+    {
+      "provider_id": "old_profile_36",
+      "identity": {
+        "name": "Melissa Solano",
+        "credentials": ["Contact for credentials"],
+        "title": "Therapist",
+        "profile_url": "https://www.inclusivetherapists.com/texas/austin/melissa-solano",
+        "narrative": "I'm a first generation Latinx/e therapist here to provide culturally sensitive therapy services to all folx including those in BIPOC and 2SLGTBQIA+ communities.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 160,
+          "cost_max": 160,
+          "currency": "USD",
+          "sliding_scale_available": true
+        },
+        "insurance": {
+          "in_network_plans": [
+            "Aetna",
+            "Cigna",
+            "Mental Health Liberation Therapy Fund Service-Provider",
+            "Optum",
+            "Oscar",
+            "Oxford",
+            "UMR",
+            "UnitedHealthcare",
+            "Wellfleet"
+          ],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Cultural Sensitivity",
+          "BIPOC Mental Health",
+          "LGBTQIA+",
+          "First Generation Issues",
+          "Identity"
+        ],
+        "modalities": ["Culturally Sensitive", "Affirming"],
+        "populations": ["Adults", "BIPOC", "LGBTQIA+"],
+        "languages": ["English"],
+        "lgbtq_affirming": true,
+        "poc_focused": true
+      },
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "telehealth": true
+      },
+      "platform": "Inclusive Therapists",
+      "education": "Contact for details",
+      "yearsInPractice": 9
+    },
+    {
+      "provider_id": "old_profile_37",
+      "identity": {
+        "name": "Ashley Harris",
+        "credentials": ["MA", "LMFT", "CIMHP"],
+        "title": "Marriage & Family Therapist",
+        "profile_url": "https://www.psychologytoday.com/us/therapists/california?category=couples-counseling",
+        "narrative": "Is anxiety and overwhelm mounting in relationships, or work? When I see you, I see an entire person; mind, body & spirit. I offer individual, executive and couples Telehealth sessions.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Anxiety",
+          "Overwhelm",
+          "Relationships",
+          "Work Stress",
+          "Mind-Body-Spirit",
+          "Executive Coaching"
+        ],
+        "modalities": ["Holistic", "Goal-Oriented", "Telehealth"],
+        "populations": ["Adults", "Couples"],
+        "languages": ["English"],
+        "lgbtq_affirming": false
+      },
+      "location": {
+        "city": "Online Only",
+        "state": "CA",
+        "telehealth": true
+      },
+      "platform": "Psychology Today",
+      "education": "MA",
+      "yearsInPractice": 10
+    },
+    {
+      "provider_id": "old_profile_38",
+      "identity": {
+        "name": "Thomas Lyons",
+        "credentials": ["LMFT"],
+        "title": "Marriage & Family Therapist",
+        "profile_url": "https://www.psychologytoday.com/us/therapists/california?category=couples-counseling",
+        "narrative": "I provide a safe environment for you to talk about whatever is bothering you. I'll occasionally ask you to clarify something, I'll offer my views on what comes up, and I'll point out how I see the past playing out in your present.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Psychodynamic",
+          "Relationships",
+          "Past Patterns",
+          "Deep Exploration",
+          "Emotional Processing"
+        ],
+        "modalities": ["Psychodynamic", "Insight-Oriented"],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": false
+      },
+      "location": {
+        "city": "Online Only",
+        "state": "CA",
+        "telehealth": true
+      },
+      "platform": "Psychology Today",
+      "education": "MA in Marriage & Family Therapy",
+      "yearsInPractice": 15
+    },
+    {
+      "provider_id": "old_profile_39",
+      "identity": {
+        "name": "Grace Parker-Guerrero",
+        "credentials": ["MA", "AMFT"],
+        "title": "Associate Marriage & Family Therapist",
+        "profile_url": "https://www.psychologytoday.com/us/therapists/california?category=couples-counseling",
+        "narrative": "I'm a registered Associate Marriage and Family Therapist providing psychotherapy to a diverse population of clients. I also work with couples, polycules, and chosen families—be they friends, lovers, relatives, colleagues or cohabitants.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Couples",
+          "Polyamory",
+          "Communication",
+          "Chosen Families",
+          "Relationship Repair"
+        ],
+        "modalities": ["Relational", "Systemic"],
+        "populations": ["Adults", "Teens", "Couples", "Polycules"],
+        "languages": ["English"],
+        "lgbtq_affirming": true
+      },
+      "location": {
+        "city": "California",
+        "state": "CA",
+        "telehealth": true
+      },
+      "platform": "Psychology Today",
+      "education": "MA",
+      "yearsInPractice": 3
+    },
+    {
+      "provider_id": "old_profile_40",
+      "identity": {
+        "name": "Emelia Applegate",
+        "credentials": ["MA", "LMFT"],
+        "title": "Marriage & Family Therapist",
+        "profile_url": "https://www.psychologytoday.com/us/therapists/ca/san-francisco?category=family-therapy",
+        "narrative": "I'm a licensed marriage and family therapist in California with advanced training in psychodynamic, interpersonal, and trauma-informed care. I work with adults, teens, and children experiencing anxiety or change at home. I have deep experience supporting survivors of sexual trauma.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Anxiety",
+          "Trauma",
+          "Sexual Trauma",
+          "Childhood Sexual Abuse",
+          "Adults",
+          "Teens",
+          "Children"
+        ],
+        "modalities": ["Psychodynamic", "Interpersonal", "Trauma-Informed"],
+        "populations": ["Adults", "Teens", "Children"],
+        "languages": ["English"],
+        "lgbtq_affirming": false
+      },
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "telehealth": true
+      },
+      "platform": "Psychology Today",
+      "education": "MA",
+      "yearsInPractice": 10
+    },
+    {
+      "provider_id": "old_profile_41",
+      "identity": {
+        "name": "Bonnie Doughty",
+        "credentials": ["LMFT"],
+        "title": "Marriage & Family Therapist",
+        "profile_url": "https://www.psychologytoday.com/us/therapists/california?category=emotionally-focused",
+        "narrative": "I have been working in the mental health field for 20 years. I have a particular focus on helping people with substance abuse challenges including food and nicotine. I will support you in practicing harm reduction or abstinence depending on your goals.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Substance Abuse",
+          "Food Addiction",
+          "Nicotine",
+          "Relationships",
+          "Moods",
+          "Life Transitions"
+        ],
+        "modalities": ["Harm Reduction", "Feedback Informed Care"],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": false
+      },
+      "location": {
+        "city": "Online Only",
+        "state": "CA",
+        "telehealth": true
+      },
+      "platform": "Psychology Today",
+      "education": "Contact for details",
+      "yearsInPractice": 20
+    },
+    {
+      "provider_id": "old_profile_42",
+      "identity": {
+        "name": "Kayleigh Soto",
+        "credentials": ["LMFT", "LPCC"],
+        "title": "Marriage & Family Therapist, Professional Clinical Counselor",
+        "profile_url": "https://www.psychologytoday.com/us/therapists/ca/los-angeles?category=couples-counseling",
+        "narrative": "Kayleigh is dual licensed as a Marriage and Family Therapist (LMFT) and Professional Clinical Counselor (LPCC). She specializes in helping young adults and Millennials understand and navigate through depression and anxiety and is an LGBTQIA+ allied clinician.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": [
+            "Aetna",
+            "Anthem",
+            "Blue Cross",
+            "Cigna",
+            "United"
+          ],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Depression",
+          "Anxiety",
+          "Young Adults",
+          "Millennials",
+          "Negative Belief Systems"
+        ],
+        "modalities": ["CBT", "Insight-Oriented"],
+        "populations": ["Young Adults", "Millennials"],
+        "languages": ["English"],
+        "lgbtq_affirming": true
+      },
+      "location": {
+        "city": "Los Angeles",
+        "state": "CA",
+        "telehealth": true
+      },
+      "platform": "Psychology Today",
+      "education": "Contact for details",
+      "yearsInPractice": 8
+    },
+    {
+      "provider_id": "old_profile_43",
+      "identity": {
+        "name": "Molly Ryan",
+        "credentials": ["LCSW", "CCTP"],
+        "title": "Clinical Social Worker, Certified Clinical Trauma Professional",
+        "profile_url": "https://www.psychologytoday.com/us/therapists/molly-ryan-saugerties-ny/933594",
+        "narrative": "You're self-aware enough to know something needs to shift but insight alone hasn't been enough to create change. As a Certified Clinical Trauma Professional, I integrate psychodynamic, somatic, attachment & skills based approaches to help you get to the roots of anxiety, shame, depression and disconnection.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact for details"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Trauma and PTSD",
+          "Anxiety",
+          "Depression",
+          "Codependency",
+          "Life Transitions",
+          "Self Esteem",
+          "Women's Issues"
+        ],
+        "modalities": [
+          "Psychodynamic",
+          "Somatic",
+          "Attachment-Based",
+          "Skills-Based"
+        ],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": true
+      },
+      "location": {
+        "city": "Saugerties",
+        "state": "NY",
+        "telehealth": true
+      },
+      "platform": "Psychology Today",
+      "education": "Silberman School of Social Work at Hunter College",
+      "yearsInPractice": 11
+    },
+    {
+      "provider_id": "old_profile_44",
+      "identity": {
+        "name": "Belle Zatlin",
+        "credentials": ["LCSW"],
+        "title": "Clinical Social Worker",
+        "profile_url": "https://www.psychologytoday.com/us/therapists/belle-zatlin-brooklyn-ny/1374294",
+        "narrative": "My approach is best suited for someone who is ready to dive in and start making life improvements. Belle is an incredibly warm and engaging clinician who brings extensive knowledge, practical tools, and real skill to her work.",
+        "photo": "🧑‍⚕️"
+      },
+      "economics": {
+        "fee_structure": {
+          "session_type": "Individual Therapy",
+          "cost_min": 0,
+          "cost_max": 0,
+          "currency": "USD",
+          "sliding_scale_available": false
+        },
+        "insurance": {
+          "in_network_plans": ["Contact via Headway"],
+          "out_of_network_eligible": false,
+          "superbill_provided": false
+        }
+      },
+      "clinical": {
+        "specialties": [
+          "Anxiety",
+          "Depression",
+          "Stress",
+          "Women's Issues",
+          "Life Improvements"
+        ],
+        "modalities": ["CBT"],
+        "populations": ["Adults"],
+        "languages": ["English"],
+        "lgbtq_affirming": false
+      },
+      "location": {
+        "city": "Brooklyn",
+        "state": "NY",
+        "telehealth": true
+      },
+      "platform": "Psychology Today",
+      "education": "Fordham University, MSW",
+      "yearsInPractice": 10
+    },
+    {
+      "id": 1,
+      "name": "Anisha Mauze",
+      "credentials": "LMFT",
+      "licenseType": "Marriage & Family Therapist",
+      "location": {
+        "city": "Berkeley",
+        "state": "CA",
+        "zip": "94705"
+      },
+      "specialties": ["Alternative Lifestyles", "ADHD", "Trauma and PTSD"],
+      "additionalExpertise": [
+        "Anxiety",
+        "Autism",
+        "Bisexual",
+        "Body Image",
+        "Child",
+        "Depression",
+        "Family Conflict",
+        "Grief",
+        "LGBTQ+",
+        "Life Transitions",
+        "Marital and Premarital",
+        "Open Relationships Non-Monogamy",
+        "Racial Identity",
+        "Relationship Issues",
+        "Sex-Positive, Kink Allied",
+        "Stress",
+        "Transgender"
+      ],
+      "modalities": [
+        "Attachment-based",
+        "Cognitive Behavioral (CBT)",
+        "Compassion Focused",
+        "Culturally Sensitive",
+        "Dialectical Behavior (DBT)",
+        "Emotionally Focused",
+        "Existential",
+        "Experiential Therapy",
+        "Feminist",
+        "Internal Family Systems (IFS)",
+        "Multicultural",
+        "Narrative",
+        "Person-Centered",
+        "Play Therapy"
+      ],
+      "sessionTypes": ["Individual", "Couples", "Group"],
+      "clientele": ["Children (6 to 10)", "Preteen", "Teen", "Adults"],
+      "sessionFee": "$110",
+      "insurance": ["Out of Network"],
+      "slidingScale": true,
+      "freeConsultation": true,
+      "telehealth": true,
+      "inPerson": false,
+      "lgbtqAffirming": true,
+      "communities": [
+        "Bisexual Allied",
+        "Gay Allied",
+        "HIV / AIDS Allied",
+        "Intersex Allied",
+        "Lesbian Allied",
+        "Non-Binary Allied",
+        "Queer Allied",
+        "Racial Justice Allied",
+        "Sex Worker Allied",
+        "Transgender Allied"
+      ],
+      "description": "I'm not beating around the bush here: things are pretty messed up right now. And when it feels like the world is on fire, of course you're going to be freaking out. I specialize in working with alternative lifestyles; if the system isn't working for you, I will. Like good art, therapy with me aims to comfort those in challenging positions, and challenge the comfortable.",
+      "yearsInPractice": 10,
+      "education": "John F Kennedy University, Graduated 2017",
+      "profileUrl": "https://www.psychologytoday.com/us/therapists/anisha-mauze-berkeley-ca/353627",
+      "platform": "Psychology Today"
+    }
+  ]
+}
